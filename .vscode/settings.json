@@ -19,7 +19,7 @@
     "editor.renderIndentGuides": false,
     "path-intellisense.autoSlashAfterDirectory": true,
     "path-intellisense.extensionOnImport": true,
-    "workbench.colorTheme": "One Dark Pro Darker", // 配色方案
+    "workbench.colorTheme": "One Dark Pro", // 配色方案
     "python.linting.pylintArgs": [
         "--load-plugins",
         "pylint_django",
