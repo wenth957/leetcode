@@ -15,8 +15,7 @@
     "editor.fontSize": 16, // 编辑器中的字体
     "editor.wordWrap": "on",
     "editor.formatOnSave": true, //编辑器自动保存
-    "python.linting.flake8Enabled": true, //启用flake8，首先需要pip3 install falke8
-    "editor.renderIndentGuides": false,
+    "python.linting.flake8Enabled": true,
     "path-intellisense.autoSlashAfterDirectory": true,
     "path-intellisense.extensionOnImport": true,
     "workbench.colorTheme": "One Dark Pro", // 配色方案
@@ -93,4 +92,5 @@
         "E402"
     ],
     "jupyter.jupyterServerType": "local",
+    "editor.guides.indentation": false,
 }

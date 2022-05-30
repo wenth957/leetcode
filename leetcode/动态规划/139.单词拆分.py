@@ -12,6 +12,7 @@ class Solution:
         dp = [False] * (len(s) + 1)
         dp[0] = True
         for i in range(1, len(s) + 1):
+        # 遍历所有子串：排列问题，先遍历背包再遍历物品
             for word in wordDict:
                 # 子字符串长度(体积)>= 物品长度 所有满足条件的子串进行比对
                 if i >= len(word):
