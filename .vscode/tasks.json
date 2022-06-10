@@ -7,7 +7,7 @@
             "label": "VScode",
             "type": "shell",
             // "command"为python.exe的绝对路径
-            "command": "D:\\python\\python.exe",
+            "command": "D:\\code\\anaconda\\envs\\python38\\python.exe",
             "args": [
                 "${file}"
             ],

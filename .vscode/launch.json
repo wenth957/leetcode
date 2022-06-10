@@ -10,7 +10,7 @@
             "type": "python",
             "request": "launch",
             "stopOnEntry": true,
-            "python": "D:\\code\\anaconda\\python.exe", //python3的安装路径
+            "python": "D:\\code\\anaconda\\envs\\python38\\python.exe", //python3的安装路径
             "program": "${file}",
             "cwd": "${workspaceFolder}",
             "env": {},
@@ -21,7 +21,7 @@
             "type": "python",
             "request": "launch",
             "stopOnEntry": false,
-            "python": "D:\\code\\anaconda\\python.exe",
+            "python": "D:\\code\\anaconda\\envs\\python38\\python.exe",
             "program": "${file}",
             "cwd": "",
             "console": "integratedTerminal",
@@ -37,7 +37,7 @@
             "request": "launch",
             // 设为true时程序将暂停在程序入口处，一般设置为false
             "stopOnEntry": false,
-            "python": "D:\\code\\anaconda\\python.exe",
+            "python": "D:\\code\\anaconda\\envs\\python38\\python.exe",
             // 将要进行调试的程序的路径
             "program": "${file}",
             // 调试程序时的工作目录，一般为${workspaceRoot}即代码所在目录
@@ -52,7 +52,7 @@
             "type": "python",
             "request": "launch",
             "stopOnEntry": true,
-            "python": "D:\\code\\anaconda\\python.exe",
+            "python": "D:\\code\\anaconda\\envs\\python38\\python.exe",
             "program": "${workspaceFolder}/manage.py",
             "cwd": "${workspaceFolder}",
             "args": [
